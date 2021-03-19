@@ -8,6 +8,9 @@ export const DataFetching = () => {
         axios.get('https://randomuser.me/api?results=200&nat=us&inc=name,location,email,dob,phone')
             .then(res => {
                 console.log(res);
+            })
+            .catch(err => {
+                console.log(err);
             });
     });
 
