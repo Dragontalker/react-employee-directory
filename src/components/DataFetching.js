@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { COLUMNS } from '../ultis/columns';
+import { Table } from './Table';
 import axios from 'axios';
 
 
@@ -32,7 +33,7 @@ export const DataFetching = () => {
 
     return (
         <div>
-            
+            <Table columns={COLUMNS} data={MOCK_DATA}/>
         </div>
     )
 };
