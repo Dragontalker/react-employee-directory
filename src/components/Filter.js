@@ -5,6 +5,7 @@ export const Filter = ({filter, setFilter}) => {
         <span>
             <input
                 value={filter || ''}
+                placeholder={'Search table here...'}
             />
         </span>
     )
