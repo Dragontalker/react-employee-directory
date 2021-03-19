@@ -23,7 +23,9 @@ export const Table = (props) => {
                     {headerGroups.map(headerGroup => (
                         <tr {...headerGroup.getHeaderGroupProps()}>
                             {headerGroup.headers.map(column => (
-                                <th {...column.getHeaderProps()}></th>
+                                <th {...column.getHeaderProps()}>
+                                    {column.render('Header')}
+                                </th>
                             ))}
                         </tr>
                     ))}
