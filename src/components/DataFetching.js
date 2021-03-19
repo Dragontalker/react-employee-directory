@@ -3,7 +3,7 @@ import axios from 'axios';
 import MOCK_DATA from '../ultis/MOCK_DATA.json';
 
 export const DataFetching = () => {
-    const [posts, setPosts] = useState([]);
+    // const [posts, setPosts] = useState([]);
 
     // useEffect(() => {
     //     axios.get('https://randomuser.me/api?results=200&nat=us&inc=name,location,email,dob,phone')
@@ -29,7 +29,7 @@ export const DataFetching = () => {
 
     return (
         <div>
-            {JSON.stringify(posts)}
+            
         </div>
     )
 };
