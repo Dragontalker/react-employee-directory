@@ -20,8 +20,11 @@ export const Table = (props) => {
         <div>
             <table {...getTableProps()}>
                 <thead>
-                    
+
                 </thead>
+                <tbody>
+                    
+                </tbody>
             </table>
         </div>
     )
