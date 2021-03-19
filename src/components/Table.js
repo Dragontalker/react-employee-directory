@@ -31,7 +31,9 @@ export const Table = (props) => {
                     ))}
                 </thead>
                 <tbody {...getTableBodyProps()}>
-
+                    {rows.map(row => {
+                        prepareRow(row)
+                    })}
                 </tbody>
             </table>
         </div>
