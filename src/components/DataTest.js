@@ -7,6 +7,12 @@ class DataTest extends Component {
         results: []
     };
 
+    render() {
+        return (
+            <div></div>
+        )
+    }
+
 };
 
 export default DataTest;
