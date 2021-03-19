@@ -6,7 +6,8 @@ export const Table = (props) => {
     const data = useMemo(() => props.data, []);
 
     const {
-        getTableProps
+        getTableProps,
+        getTableBodyProps
     } = useTable({
         columns,
         data
