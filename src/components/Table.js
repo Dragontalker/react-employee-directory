@@ -21,7 +21,7 @@ export const Table = (props) => {
             <table {...getTableProps()}>
                 <thead>
                     {headerGroups.map(headerGroup => (
-                        <th></th>
+                        <tr {...headerGroup.getHeaderGroupProps()}></tr>
                     ))}
                 </thead>
                 <tbody {...getTableBodyProps()}>
