@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { useTable, useGlobalFilter } from 'react-table';
 import { Filter } from './Filter';
+import './Table.css';
 
 export const Table = (props) => {
     const columns = useMemo(() => props.columns, []);
