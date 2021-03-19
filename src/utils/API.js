@@ -1,10 +1,11 @@
 import axios from 'axios';
 
-const getApiData = (number, nation) => {
+const getApiData = (number, nation, options) => {
     axios.get('https://randomuser.me/api', {
         params: {
             result: number,
-            nat: nation
+            nat: nation,
+            inc: options
         }
     })
 };
