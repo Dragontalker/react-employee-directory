@@ -33,6 +33,9 @@ export const Table = (props) => {
                 <tbody {...getTableBodyProps()}>
                     {rows.map(row => {
                         prepareRow(row)
+                        return (
+                            <tr></tr>
+                        )
                     })}
                 </tbody>
             </table>
