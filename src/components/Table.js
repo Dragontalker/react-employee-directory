@@ -18,7 +18,7 @@ export const Table = (props) => {
     } = useTable({
         columns,
         data
-    }, useGlobalFilter)
+    }, useGlobalFilter, useSortBy)
 
     const { globalFilter } = state;
 
@@ -30,8 +30,15 @@ export const Table = (props) => {
                     {headerGroups.map(headerGroup => (
                         <tr {...headerGroup.getHeaderGroupProps()}>
                             {headerGroup.headers.map(column => (
-                                <th {...column.getHeaderProps()}>
+                                <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                                     {column.render('Header')}
+                                    <span>
+                                        {column.isSorted
+                                            ? column.isSortedDesc
+                                                ? ' 🔽'
+                                                : ' 🔼'
+                                            : ''}
+                                    </span>
                                 </th>
                             ))}
                         </tr>
