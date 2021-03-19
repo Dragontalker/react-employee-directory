@@ -18,7 +18,9 @@ export const Table = (props) => {
 
     return (
         <div>
-
+            <table>
+                
+            </table>
         </div>
     )
 };
