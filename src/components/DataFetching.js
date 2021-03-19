@@ -16,7 +16,9 @@ export const DataFetching = () => {
 
     return (
         <div>
-
+            {posts.map(post => (
+                <li key={post.id}>{post.title}</li>
+            ))}
         </div>
     )
 };
