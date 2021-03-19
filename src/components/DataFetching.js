@@ -8,17 +8,16 @@ export const DataFetching = () => {
         axios.get('https://randomuser.me/api?results=200&nat=us&inc=name,location,email,dob,phone')
             .then(res => {
                 console.log(res);
+                setPosts(res.data.results);
             })
             .catch(err => {
                 console.log(err);
             });
-    });
+    }, []);
 
     return (
         <div>
-            {posts.map(post => (
-                <li key={post.id}>{post.title}</li>
-            ))}
+            {JSON.stringify(pos)}
         </div>
     )
 };
