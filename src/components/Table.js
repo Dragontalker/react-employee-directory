@@ -22,8 +22,8 @@ export const Table = (props) => {
                 <thead>
 
                 </thead>
-                <tbody>
-                    
+                <tbody {...getTableBodyProps()}>
+
                 </tbody>
             </table>
         </div>
