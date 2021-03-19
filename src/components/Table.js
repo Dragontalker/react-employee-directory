@@ -12,7 +12,8 @@ export const Table = (props) => {
         headerGroups,
         rows,
         prepareRow,
-        state
+        state,
+        setGlobalFilter
     } = useTable({
         columns,
         data
@@ -22,7 +23,7 @@ export const Table = (props) => {
 
     return (
         <div>
-            <Filter />
+            <Filter filter={globalFilter} setFilter={setGlobalFilter}/>
             <table {...getTableProps()}>
                 <thead>
                     {headerGroups.map(headerGroup => (
