@@ -9,7 +9,8 @@ export const Table = (props) => {
         getTableProps,
         getTableBodyProps,
         headerGroups,
-        rows
+        rows,
+        prepareRow
     } = useTable({
         columns,
         data
