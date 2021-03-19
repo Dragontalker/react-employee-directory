@@ -7,8 +7,19 @@ export const DataFetching = () => {
     useEffect(() => {
         axios.get('https://randomuser.me/api?results=200&nat=us&inc=name,location,email,dob,phone')
             .then(res => {
-                console.log(res);
-                setPosts(res.data.results);
+                const objs = res.data.results;
+                const data = objs.map(obj => {
+                    return {
+                        first_name: obj.name.first,
+                        last_name: obj.name.last,
+                        city: obj.location.city,
+                        state: obj.location.state,
+                        age: obj.dob.age,
+                        email: obj.email,
+                        phone: obj.phone
+                    }
+                })
+                setPosts(data);
             })
             .catch(err => {
                 console.log(err);
@@ -17,7 +28,7 @@ export const DataFetching = () => {
 
     return (
         <div>
-            {JSON.stringify(pos)}
+            {JSON.stringify(posts)}
         </div>
     )
 };
