@@ -1,13 +1,9 @@
 import axios from 'axios';
 
-const getApiData = (number, nation, options) => {
-    return axios.get('https://randomuser.me/api', {
-        params: {
-            result: number,
-            nat: nation,
-            inc: options
-        }
-    }).then(res => res.data.results)
-};
+const BASEURL = 'https://randomuser.me/api';
 
-export default getApiData;
+export default {
+    search: function(query) {
+        return axios.get(BASEURL + query)
+    }
+};
