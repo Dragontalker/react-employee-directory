@@ -19,7 +19,9 @@ export const Table = (props) => {
     return (
         <div>
             <table {...getTableProps()}>
-
+                <thead>
+                    
+                </thead>
             </table>
         </div>
     )
