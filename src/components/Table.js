@@ -8,7 +8,8 @@ export const Table = (props) => {
     const {
         getTableProps,
         getTableBodyProps,
-        headerGroups
+        headerGroups,
+        rows
     } = useTable({
         columns,
         data
