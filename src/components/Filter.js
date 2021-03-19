@@ -1,5 +1,9 @@
 import React from 'react';
 
-export const Filter = () => {
-
+export const Filter = ({filter, setFilter}) => {
+    return (
+        <span>
+            
+        </span>
+    )
 };
