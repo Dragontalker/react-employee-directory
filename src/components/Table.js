@@ -14,7 +14,7 @@ export const Table = (props) => {
     } = useTable({
         columns,
         data
-    })
+    }, useGlobalFilter)
 
     return (
         <div>
