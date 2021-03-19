@@ -17,6 +17,8 @@ export const Table = (props) => {
         data
     }, useGlobalFilter)
 
+    const { globalFilter } = state;
+
     return (
         <div>
             <table {...getTableProps()}>
