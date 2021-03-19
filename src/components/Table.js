@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import { useTable, useGlobalFilter } from 'react-table';
+import { Filter } from './Filter';
 
 export const Table = (props) => {
     const columns = useMemo(() => props.columns, []);
@@ -21,6 +22,7 @@ export const Table = (props) => {
 
     return (
         <div>
+            <Filter />
             <table {...getTableProps()}>
                 <thead>
                     {headerGroups.map(headerGroup => (
