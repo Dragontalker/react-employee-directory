@@ -7,7 +7,8 @@ export const Table = (props) => {
 
     const {
         getTableProps,
-        getTableBodyProps
+        getTableBodyProps,
+        headerGroups
     } = useTable({
         columns,
         data
