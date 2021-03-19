@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { COLUMNS } from '../ultis/columns';
 import axios from 'axios';
+
+
 import MOCK_DATA from '../ultis/MOCK_DATA.json';
 
 export const DataFetching = () => {
