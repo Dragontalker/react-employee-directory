@@ -21,7 +21,6 @@ function App() {
                         phone: obj.phone
                     }
                 })
-                console.log(data);
                 setPosts(data);
             })
             .catch(err => {
