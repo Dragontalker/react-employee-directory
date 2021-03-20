@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { useTable, useGlobalFilter, useSortBy } from 'react-table';
 import { Filter } from './Filter';
 import './Table.css';
