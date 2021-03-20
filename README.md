@@ -49,3 +49,16 @@ The user should be able to:
 
 
 ---
+
+### __Installation__
+For local installtion, please type in the following command in console:
+```bash
+npm install
+```
+
+After installtion completed, use the following commander to start react app:
+```bash
+npm start
+```
+
+---
