@@ -4,8 +4,8 @@ import { Filter } from './Filter';
 import './Table.css';
 
 export const Table = (props) => {
-    const columns = useMemo(() => props.columns, []);
-    const data = useMemo(() => props.data, []);
+    const columns = props.columns;
+    const data = props.data;
 
     const {
         getTableProps,

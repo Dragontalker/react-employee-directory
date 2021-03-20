@@ -31,7 +31,7 @@ function App() {
 
     return (
         <div>
-            <Table columns={COLUMNS} data={posts}/>
+          <Table columns={COLUMNS} data={posts}/>
         </div>
     )
 }
