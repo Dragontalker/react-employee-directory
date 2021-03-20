@@ -7,7 +7,7 @@ function App() {
   const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        axios.get('https://randomuser.me/api?results=20&nat=us&inc=name,location,email,dob,phone')
+        axios.get('https://randomuser.me/api?results=200&nat=us&inc=name,location,email,dob,phone')
             .then(res => {
                 const objs = res.data.results;
                 const data = objs.map(obj => {

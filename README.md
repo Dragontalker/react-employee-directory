@@ -3,3 +3,6 @@
 
 ## __Deployed at GitHub Pages__
 https://dragontalker.github.io/react-employee-directory/
+
+## __Screenshot__
+![app screenshot](./Assets/screenshot.png)
