@@ -9,7 +9,7 @@ export const COLUMNS = [
     },
     {
         Header: 'City',
-        accessor: 'dcity'
+        accessor: 'city'
     },
     {
         Header: 'State',
