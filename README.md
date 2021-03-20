@@ -6,3 +6,10 @@ https://dragontalker.github.io/react-employee-directory/
 
 ## __Screenshot__
 ![app screenshot](./Assets/screenshot.png)
+
+## __Table of Contents__
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contact](#Contact)
+* [License](#License)
