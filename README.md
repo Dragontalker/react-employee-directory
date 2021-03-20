@@ -62,3 +62,21 @@ npm start
 ```
 
 ---
+
+### __Usage__
+
+#### __1. Filtering__
+This application has a built-in global filter, basically type in anything you want to search and it will filter the table for you.
+
+![filter screenshot](./Assets/filter.png)
+
+---
+
+#### __2. Sorting__
+Click on the header to select sorting mode, the direction of the triangle indicates the sorting order.
+
+###### __Example 1: Sorting age in asceding order:__
+![ascending sort](./Assets/sort_age.png)
+
+###### __Example 2: Sorting city in descending order:__
+![descending sort](./Assets/sort_city.png)
