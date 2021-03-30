@@ -16,15 +16,28 @@ https://dragontalker.github.io/react-employee-directory/
 - [License](#license)
 - [Author Info](#author-info)
 
+# Description
+
+`React` is the most popular front-end technology right now. This React application is to demonstrate its power of fast dynamic rendering. The table is dynamatically updated whenever user types in something in search bar, no button clicking is required. Moreover, user can sort each column by clicking on the header, either in ascending order or descending order.
+
+## :wrench: **Technologies Used**
+
+- React
+- React Hooks
+- Node.js
+- RESTful Api
+- Axios
+- HTML 5
+- CSS 3
+- JavaScript
+- VS Code
+- GitHub Pages
+
+[Back to the Top](#employee-directory)
+
 ## **Screenshot of Deployed React Application**
 
 ![app screenshot](./Assets/screenshot.png)
-
----
-
-### **Description**
-
-`React` is the most popular front-end technology right now. This React application is to demonstrate its power of fast dynamic rendering. The table is dynamatically updated whenever user types in something in search bar, no button clicking is required. Moreover, user can sort each column by clicking on the header, either in ascending order or descending order.
 
 ---
 
