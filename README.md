@@ -2,25 +2,23 @@
 
 [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Nodejs Badge](https://img.shields.io/badge/-Node.js-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#)
 
-## **Deployed at GitHub Pages**
+### :rocket: **Deployed on Heroku**
 
 https://dragontalker.github.io/react-employee-directory/
 
 ---
 
+### **Table of Contents**
+
+- [Description](#description)
+- [How to Use](#how-to-use)
+- [How to Install](#how-to-install)
+- [License](#license)
+- [Author Info](#author-info)
+
 ## **Screenshot of Deployed React Application**
 
 ![app screenshot](./Assets/screenshot.png)
-
----
-
-## **Table of Contents**
-
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contact](#Contact)
-- [License](#License)
 
 ---
 
