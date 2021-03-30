@@ -69,27 +69,25 @@ Click on the header to select sorting mode, the direction of the triangle indica
 
 [Back to the Top](#employee-directory)
 
-### **Installation**
+# How to Install
 
-For local installtion, please type in the following command in console:
+:cd: For local installtion, please type in the following command in console:
 
 ```bash
 npm install
 ```
 
-After installtion completed, use the following commander to start react app:
+:computer: After installtion completed, use the following commander to start react app:
 
 ```bash
 npm start
 ```
 
----
+[Back to the Top](#employee-directory)
 
-### **Contact**
+# License
 
-If you have any questions, email me at richard.yang.tong@gmail.com.
-
-### **License**
+:mortar_board: MIT License
 
 Copyright (c) [2021] [Richard Yang]
 
@@ -98,3 +96,11 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[Back to the Top](#employee-directory)
+
+# Author Info
+
+:space_invader: Tong (Richard) Yang is a full stack software engineering from Canada, living Toronto Area. If you have any questions, email him at richard.yang.tong@gmail.com or visit his [GitHub](https://github.com/Dragontalker).
+
+[Back to the Top](#employee-directory)
