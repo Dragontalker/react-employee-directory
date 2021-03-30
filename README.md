@@ -24,6 +24,7 @@ https://dragontalker.github.io/react-employee-directory/
 
 - React
 - React Hooks
+- React Tables
 - Node.js
 - RESTful Api
 - Axios
