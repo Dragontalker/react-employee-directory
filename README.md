@@ -39,31 +39,35 @@ https://dragontalker.github.io/react-employee-directory/
 
 ![app screenshot](./Assets/screenshot.png)
 
----
+[Back to the Top](#employee-directory)
 
-### **User Story**
+# How to Use
 
-- As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+:crystal_ball: This application includes two features: dynamic filtering and customized sorting.
 
----
+## :eyes: Feature: Dynamic Filtering
 
-### **Business Context**
+This application has a built-in global filter, basically type in anything you want to search and it will filter the table for you.
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+![filter screenshot](./Assets/filter.png)
 
----
+[Back to the Top](#employee-directory)
 
-### **Acceptance Criteria**
+## :trophy: Feature: Customized Sorting
 
-Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render.
+Click on the header to select sorting mode, the direction of the triangle indicates the sorting order.
 
-The user should be able to:
+###### **Example 1: Sorting age in asceding order:**
 
-- Sort the table by at least one category
+![ascending sort](./Assets/sort_age.png)
 
-- Filter the users by at least one property.
+[Back to the Top](#employee-directory)
 
----
+###### **Example 2: Sorting city in descending order:**
+
+![descending sort](./Assets/sort_city.png)
+
+[Back to the Top](#employee-directory)
 
 ### **Installation**
 
@@ -78,30 +82,6 @@ After installtion completed, use the following commander to start react app:
 ```bash
 npm start
 ```
-
----
-
-### **Usage**
-
-#### **1. Filtering**
-
-This application has a built-in global filter, basically type in anything you want to search and it will filter the table for you.
-
-![filter screenshot](./Assets/filter.png)
-
----
-
-#### **2. Sorting**
-
-Click on the header to select sorting mode, the direction of the triangle indicates the sorting order.
-
-###### **Example 1: Sorting age in asceding order:**
-
-![ascending sort](./Assets/sort_age.png)
-
-###### **Example 2: Sorting city in descending order:**
-
-![descending sort](./Assets/sort_city.png)
 
 ---
 
